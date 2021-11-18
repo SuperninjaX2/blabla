@@ -1,277 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="dist/css/bootstrap.css">
-   <link rel="stylesheet" href="dist/css/bootstrap.css">
     <meta charset="UTF-8">
-    <title>E-commerce</title>
+    <title>Page title</title>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Taji web store</a>
-            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">cars</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">houses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">best buy</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    
-    <header id="jj" class="welcome">
-        <p class="text">
-            <span id="Welcome">
-                Welcome
-    </span>
-            <small>
-        TAJI WEB STORE
-    </small>
-    </p>
-  <form class="col-12 col-lg-auto mb-3 mb-lg-0">
-        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-          <div class="text-end">
-          <a type="button" class="btn btn-light text-dark me-2"href="login form.html">Login</a>
-          <a type="button" class="btn btn-dark "
-          href="Sign-up.html">Sign-up</a>
-        </div>
-        </form>
-    </header>
-
-    <main id="main">
-        <h1 class="lead">what is new</h1>
-        <div class="items">
-
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />	 <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>  <span>
-
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>  <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span> <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span> <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-        </div>
-        <h1 class="lead">best offer</h1>
-        <div class="items">
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9N ofao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="dist/css/bootstrap.css">
+<meta charset="UTF-8">
+<title>E-commerce</title>
+</head>
+<body>
+<div style="display=none"id="spinner" class="spinner-glow text-primary" role="status">
+<span class="visually-hidden"></span>
+</div>
 
 
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />	 <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">Taji web store</a>
+<button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>  <span>
+<div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="categories.html">category</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">houses</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">best buy</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
+<ul class="dropdown-menu" aria-labelledby="dropdown01">
+<li><a class="dropdown-item" href="#">Action</a></li>
+<li><a class="dropdown-item" href="#">Another action</a></li>
+<li><a class="dropdown-item" href="#">Something else here</a></li>
+</ul>
+</li>
+</ul>
+<form class="d-flex">
+<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+<button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+</div>
+</div>
+</nav>
 
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>  <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span> <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span> <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-        </div>
-        <h1 class="lead">cheap offers</h1>
-        <div class="items">
+<header id="jj" class="welcome">
+<p class="text">
+<span id="Welcome">
+Welcome
+</span>
+<small>
+TAJI WEB STORE
+</small>
+</p>
+<form class="col-md-3 col-xl-6 text-left container-fluid ">
+<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+ <button class="btn btn-dark" type="submit">search</button>
+
+<div class="text-end container-fluid">
+<a type="button" class="btn btn-light text-dark me-2"href="login form.html">Login</a>
+<a type="button" class="btn btn-dark "
+href="checkout/Sign-up.html">Sign-up</a>
+</div>
+</form>
+</header>
+
+<main id="main">
+<h1 class="lead">what's new</h1>
+<div class="items">
+
+<span class="image-con">
+<img src="images/toyota/img1-t.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/toyota/img2-t.jpg" alt="" />
+<P class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+
+<img src="images/toyota/img4-t.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/benz/pic1.jpg" alt="">
+
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/benz/pic2.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/hyundai/img2-h.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con"><img src="images/hyundai/img3-h.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/hyundai/img4-h.jpg" alt="" />
+
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/volkswagen/img1-v.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+</div>
 
 
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />	 <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
+<main id="main">
+<h1 class="lead">Best OFFERS</h1>
+<div class="items">
 
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>  <span>
+<span class="image-con">
+<img src="images/toyota/img1-t.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/toyota/img2-t.jpg" alt="" />
+<P class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
 
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>  <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span> <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span> <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-            <span>
-                <img src="" alt="" />
-                <p class="">
-                    $0.00
-                </p>
-            </span>
-        </div>
-    </main>
-    <footer>
+<img src="images/toyota/img4-t.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/benz/pic1.jpg" alt="">
 
-        <div class="container">
-            <span class="text-muted">Terms and conditions</span>
-            <br>
-            <span><a href="https://superninjax2.github.io/tinystopwatch/" class="link-active">Developer</span>
-                <!--<img src="001-facebook.svg"
-                            height="30px"/>-->
-            </div>
-        </footer>
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/benz/pic2.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/hyundai/img2-h.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con"><img src="images/hyundai/img3-h.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/hyundai/img4-h.jpg" alt="" />
+
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/volkswagen/img1-v.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+</div>
+
+<main id="main">
+<h1 class="lead">CHEAP offers</h1>
+<div class="items">
+
+<span class="image-con">
+<img src="images/toyota/img1-t.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/toyota/img2-t.jpg" alt="" />
+<P class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+
+<img src="images/toyota/img4-t.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/benz/pic1.jpg" alt="">
+
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+<span class="image-con">
+<img src="images/benz/pic2.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/hyundai/img2-h.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con"><img src="images/hyundai/img3-h.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/hyundai/img4-h.jpg" alt="" />
+
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span> 
+<span class="image-con">
+<img src="images/volkswagen/img1-v.jpg" alt="" />
+<p class="price">
+<button href="Sign-up.html" class="btn btn-primary">buy</button>
+$0.00
+</p>
+</span>
+</div>
+
+</main>
+
+<footer class="container py-5">
+<div class="row">
+<div class="col-12 col-md">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10" /><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" /></svg>
+<small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+</div>
+<div class="col-6 col-md">
+<h5>Features</h5>
+<ul class="list-unstyled text-small">
+<li><a class="link-secondary" href="#">Cool stuff</a></li>
+<li><a class="link-secondary" href="#">Random feature</a></li>
+<li><a class="link-secondary" href="#">Team feature</a></li>
+<li><a class="link-secondary" href="#">Stuff for developers</a></li>
+<li><a class="link-secondary" href="#">Another one</a></li>
+<li><a class="link-secondary" href="#">Last time</a></li>
+</ul>
+</div>
+<div class="col-6 col-md">
+<h5>Resources</h5>
+<ul class="list-unstyled text-small">
+<li><a class="link-secondary" href="#">Resource name</a></li>
+<li><a class="link-secondary" href="#">Resource</a></li>
+<li><a class="link-secondary" href="#">Another resource</a></li>
+<li><a class="link-secondary" href="#">Final resource</a></li>
+</ul>
+</div>
+<div class="col-6 col-md">
+<h5>Resources</h5>
+<ul class="list-unstyled text-small">
+<li><a class="link-secondary" href="#">Business</a></li>
+<li><a class="link-secondary" href="#">Education</a></li>
+<li><a class="link-secondary" href="#">Government</a></li>
+<li><a class="link-secondary" href="#">Gaming</a></li>
+</ul>
+</div>
+<div class="col-6 col-md">
+<h5>About</h5>
+<ul class="list-unstyled text-small">
+<li><a class="link-secondary" href="#">Team</a></li>
+<li><a class="link-secondary" href="#">Locations</a></li>
+<li><a class="link-secondary" href="#">Privacy</a></li>
+<li><a class="link-secondary" href="#">Terms</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<!--scripts-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="app.js"></script>
-        <script src="dist/js/bootstrap.js"></script>
-        <script src="dist/js/bootstrap.bundle.js"></script>
-        <script src="dist/js/bootstrap.bundle.min.js"></script>
-        <script src="dist/js/bootstrap.min.js"></script>
-        <footer class="footer mt-auto py-3 bg-light">
-        </body>
-    </html>
+<script src="app.js"></script>
+<script src="dist/js/bootstrap.js"></script>
+<script src="dist/js/bootstrap.bundle.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/bootstrap.bundle.js"></script>
+<<footer class="footer mt-auto py-3 bg-light">
+</body>
+</html>

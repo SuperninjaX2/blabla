@@ -2,11 +2,10 @@
 img {
     width: 200px;
     height: 200px;
-    position: relative;
-}
+    }
 .items {
 
-    display: flex;
+    display: inline-flex;
     height: 400px;
     width: 100%;
     overflow-x: auto;
@@ -106,4 +105,19 @@ header {
     margin-top: 50px;
     margin-right:0px;
     margin-left:60vw;
+}
+#spinner{
+    margin-top:100px
+}
+.image-con{
+    padding-left: 16px;
+}
+.price{
+    font-size: 30px;
+    font-family: cursive, Lucida;
+
+}
+.text-end{
+    margin-left: 80%;
+    margin-right: 0%;
 }

@@ -1,0 +1,46 @@
+body{
+box-sizing:border-box ;
+display: inline-block;
+color: ghostwhite;
+}
+main{
+color: ghostwhite;
+	align-content: space-around;
+	align-items: center;
+}
+.squares{
+	width: 100vw;
+	height: 80vh ;
+	padding: 40px;
+	animation-name: arrow;
+	animation-duration: 4s;
+	align-items: center;
+}
+
+	.lead:hover{
+	
+	font-size: 110px;
+}
+
+.lead{
+	opacity: 70%;
+    transition-duration: 7s;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+position: relative;
+}
+@media screen and (max-width: 500px){
+	.lead{
+	opacity: 70%;
+	color: black;
+	transition-duration: 3s;
+	text-align: center;
+	font-size: 16px;
+    position: relative;
+}
+	.lead:hover{
+	
+	font-size: 30px;
+}
+}
